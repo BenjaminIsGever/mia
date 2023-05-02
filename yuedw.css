@@ -1,0 +1,54 @@
+h1 {
+animation-name: loloa;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+
+body {
+animation-name: changeBackground;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes loloa{
+
+
+    0% {
+        color: red;
+        transform: translateX(0px) translatey(0px);
+}
+
+40% {
+    color: blue;
+    transform: translateX(100px)   translateY(200px);
+}
+
+100%{
+    color: pink;
+    transform: translateX(-70px)  translateY(700px);
+
+ }
+}
+
+@keyframes changeBackground {
+    0% {
+        background-color: blue;
+    }
+
+    20% {
+        background-color: aqua;
+    }
+
+    60% {
+        background-color: red;
+    }
+    
+    100% {
+        background-color:coral;
+    }
+}
